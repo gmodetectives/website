@@ -1,0 +1,49 @@
+---
+layout: landing-page
+---
+
+<section id="contact-form" class="wrapper style1" style="background-color: #333; padding: 40px; border-radius: 10px;">
+    <header class="major">
+        <h2 style="color: #fff;">Contact Form</h2>
+        <p style="color: #ccc;">Have any questions or need assistance with GMO detection? Reach out to us!</p>
+    </header>
+    <div class="container">
+        <!-- Update the form action to point to your Formspree URL -->
+        <form action="https://formspree.io/f/xldrzyod" method="POST">
+            <div class="row">
+                <div class="6u">
+                    <label for="first-name" style="color: #fff;">First Name *</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                </div>
+                <div class="6u">
+                    <label for="last-name" style="color: #fff;">Last Name *</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="6u">
+                    <label for="email" style="color: #fff;">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="6u">
+                    <label for="phone-number" style="color: #fff;">Phone Number</label>
+                    <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number">
+                </div>
+            </div>
+            <div class="row">
+                <div class="12u">
+                    <label for="message" style="color: #fff;">Message</label>
+                    <textarea id="message" name="message" placeholder="Message" rows="6"></textarea>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="6u">
+                    <input type="submit" value="SEND MESSAGE" class="button" style="background-color: #1d881d; color: #fff;">
+                </div>
+                <div class="6u">
+                    <input type="reset" value="CLEAR" class="button alt" style="background-color: #666; color: #fff;">
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    
+    {% include head.html %}
+
+	<body id="top">
+
+        {% include header.html %}
+
+        {{ content }}
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- Remove or Replace this part -->
+                    <section class="4u 12u(mobile)">
+                        <h3>Company</h3>
+                        <ul class="links">
+                            <li><a href="{{ site.baseurl }}/about/">About Us</a></li>
+                            <li><a href="{{ site.baseurl }}/services/">Services</a></li>
+                            <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+                        </ul>
+                    </section>
+                    <!-- Add New Useful Information -->
+                    <section class="4u 12u(mobile)">
+                        <h3>Resources</h3>
+                        <ul class="links">
+                            <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+                            <li><a href="{{ site.baseurl }}/faq/">FAQs</a></li>
+                            <li><a href="{{ site.baseurl }}/privacy-policy/">Privacy Policy</a></li>
+                        </ul>
+                    </section>
+                    <section class="4u 12u(mobile)">
+                        <h3>Contact Information</h3>
+                        <p>Email: contact@gmodetectives.com</p>
+                        <p>Phone: +123 456 7890</p>
+                        <p>Address: 123 GMO Street, City, Country</p>
+                    </section>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

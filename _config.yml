@@ -1,0 +1,14 @@
+# Site settings
+title: GMO Detectives
+email: sarai.reyes@unine.ch
+description: > 
+  "Detection of Documented Genome Edits"
+baseurl: "" # Set this to empty for local development
+url: "http://localhost:4000" # Local URL for development
+
+twitter_username: jekyllrb
+github_username: jekyll
+
+# Build settings
+markdown: kramdown
+
